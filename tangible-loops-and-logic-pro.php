@@ -12,6 +12,7 @@
 define( 'TANGIBLE_LOOPS_AND_LOGIC_PRO', '3.0.0' );
 
 require_once __DIR__ . '/vendor/tangible/plugin-framework/index.php';
+require_once __DIR__ . '/vendor/tangible/plugin-updater/index.php';
 require_once __DIR__ . '/vendor/tangible/template-system-pro/index.php';
 
 /**
@@ -39,6 +40,12 @@ add_action('plugins_loaded', function() {
   ]);
 
   tangible_loops_and_logic_pro( $plugin );
+
+  tangible_plugin_updater()->register_plugin([
+    'name' => $plugin->name,
+    'file' => __FILE__,
+    // 'license' => ''
+  ]);
 
   // Features loaded will have $framework and $plugin in their scope
 

@@ -2,6 +2,10 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "git@bitbucket.org:/tangibleinc/plugin-updater.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@bitbucket.org:/tangibleinc/tangible-plugin-framework.git"
     },
     {
@@ -11,6 +15,7 @@
   ],
   "require": {
     "tangible/plugin-framework": "dev-variant/without-updater",
+    "tangible/plugin-updater": "dev-main",
     "tangible/template-system-pro": "dev-main"
   },
   "require-dev": {},
