@@ -20,7 +20,7 @@ module.exports = {
     },
   ],
   format: [
-    'includes',
-    'assets/src'
+    '**/*.{php,js,json,scss}',
+    '!assets/build'
   ]
 }

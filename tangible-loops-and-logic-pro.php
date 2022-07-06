@@ -28,8 +28,8 @@ add_action('plugins_loaded', function() {
   $framework = tangible();
   $plugin    = $framework->register_plugin([
     'name'           => 'tangible-loops-and-logic-pro',
-    'title'          => 'Tangible Loops & Logic Pro',
-    'setting_prefix' => 'tangible_loops_and_logic_pro',
+    'title'          => 'Loops & Logic Pro',
+    'setting_prefix' => 'tloopslogicpro',
 
     'version'        => TANGIBLE_LOOPS_AND_LOGIC_PRO,
     'file_path'      => __FILE__,
@@ -39,6 +39,16 @@ add_action('plugins_loaded', function() {
     'assets_url'     => plugins_url( '/assets', __FILE__ ),
   ]);
 
+  $plugin->register_dependencies([
+    'tangible-loops-and-logic/tangible-loops-and-logic.php' => [
+      'title' => 'Loops & Logic',
+      'url' => 'https://loopsandlogic.com/',
+      'fallback_check' => function() {
+        return function_exists('tangible_loops_and_logic');
+      }
+    ]
+  ]);
+
   tangible_loops_and_logic_pro( $plugin );
 
   tangible_plugin_updater()->register_plugin([
@@ -46,6 +56,8 @@ add_action('plugins_loaded', function() {
     'file' => __FILE__,
     // 'license' => ''
   ]);
+
+  if (!$plugin->has_all_dependencies()) return;
 
   // Features loaded will have $framework and $plugin in their scope
 
