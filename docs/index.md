@@ -2,6 +2,11 @@
 
 All plugin features have been moved into the [Template System Pro module](/modules/template-system-pro).
 
+#### Source code
+
+https://bitbucket.org/tangibleinc/loops-and-logic-pro
+
+
 ## Getting started
 
 ```sh
