@@ -19,6 +19,12 @@ Tags:
 
 == Changelog ==
 
+= 3.0.1 =
+
+Release Date: 2022-11-26
+
+- LearnDash integration: Add course fields: resume_id, resume_title, resume_url
+
 = 3.0.0 =
 
 Release Date: 2022-09-13
