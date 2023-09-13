@@ -19,6 +19,12 @@ Tags:
 
 == Changelog ==
 
+= 3.0.2 =
+
+Release Date: 2023-11-13
+
+- LearnDash integration: Student loop fixed rendering all groups when a student is not assigned to any of groups
+
 = 3.0.1 =
 
 Release Date: 2022-11-26
