@@ -3,13 +3,13 @@
  * Plugin Name: Tangible: Loops & Logic Pro
  * Plugin URI: https://loop.tangible.one/pro
  * Description: Extend Loops & Logic with Pro features: third-party plugin integrations (Easy Digital Downloads, Events Calendar, Gravity Forms, LearnDash, LifterLMS, WooCommerce); Form module; cloud access
- * Version: 3.0.1
+ * Version: 3.0.2
  * Author: Team Tangible
  * Author URI: https://teamtangible.com
  * License: GPLv2 or later
  */
 
-define( 'TANGIBLE_LOOPS_AND_LOGIC_PRO_VERSION', '3.0.1' );
+define( 'TANGIBLE_LOOPS_AND_LOGIC_PRO_VERSION', '3.0.2' );
 
 require_once __DIR__ . '/vendor/tangible/plugin-framework/index.php';
 require_once __DIR__ . '/vendor/tangible/plugin-updater/index.php';
