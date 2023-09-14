@@ -19,6 +19,12 @@ Tags:
 
 == Changelog ==
 
+= 3.0.4 =
+
+Release Date: 2023-11-14
+
+- LearnDash integration: Build with the latest template-system-pro module
+
 = 3.0.3 =
 
 Release Date: 2023-11-14
