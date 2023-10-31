@@ -19,6 +19,12 @@ Tags:
 
 == Changelog ==
 
+= 3.0.5 =
+
+Release Date: 2023-11-31
+
+- LearnDash integration: User quiz attempts loop - support for User ID/Current User, comma list of User IDs and 'all' items filters.
+
 = 3.0.4 =
 
 Release Date: 2023-11-14
