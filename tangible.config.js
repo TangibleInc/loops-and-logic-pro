@@ -19,6 +19,25 @@ export default {
     },
   ],
   format: ['**/*.{php,js,json,scss}', '!assets/build'],
+  archive: {
+    root: 'tangible-loops-and-logic-pro',
+    src: [
+      '*.php',
+      'assets/**',
+      'includes',
+      'vendor/tangible/**',
+      'readme.txt'
+    ],
+    dest: 'publish/tangible-loops-and-logic-pro.zip',
+    exclude: [
+      'assets/src',
+      '**/tests',
+      '**/*.scss',
+      '**/*.jsx',
+      '**/*.ts',
+      '**/*.tsx'
+    ],
+  },
   /**
    * Dependencies for production are installed in `vendor/tangible`,
    * included in the zip package to publish. Those for development are
