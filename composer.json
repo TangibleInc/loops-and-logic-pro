@@ -2,31 +2,46 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:/tangibleinc/betterdash-module.git"
+      "url": "git@github.com:tangibleinc/betterdash-module"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:/tangibleinc/betterlifter-module.git"
+      "url": "git@github.com:tangibleinc/betterlifter-module"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:/tangibleinc/tangible-plugin-framework.git"
+      "url": "git@github.com:tangibleinc/fields"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:/tangibleinc/plugin-updater.git"
+      "url": "git@github.com:tangibleinc/fields-pro"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:/tangibleinc/template-system-pro.git"
+      "url": "git@github.com:tangibleinc/framework"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:tangibleinc/template-system"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:tangibleinc/template-system-pro"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:tangibleinc/updater"
     }
   ],
   "require": {
-    "tangible/betterdash": "dev-master",
-    "tangible/betterlifter": "dev-master",
-    "tangible/plugin-framework": "dev-variant/without-updater",
-    "tangible/plugin-updater": "dev-main",
-    "tangible/template-system-pro": "dev-main"
+    "tangible/betterdash": "dev-main",
+    "tangible/betterlifter": "dev-main",
+    "tangible/fields": "dev-main",
+    "tangible/fields-pro": "dev-main",
+    "tangible/framework": "dev-main",
+    "tangible/template-system": "dev-main",
+    "tangible/template-system-pro": "dev-main",
+    "tangible/updater": "dev-main"
   },
   "require-dev": {},
   "minimum-stability": "dev"
