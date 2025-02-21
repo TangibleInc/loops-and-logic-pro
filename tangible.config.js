@@ -31,11 +31,18 @@ export default {
     dest: 'publish/tangible-loops-and-logic-pro.zip',
     exclude: [
       'assets/src',
+      'docs',
+      'vendor/tangible/*/vendor',
+      'vendor/tangible-dev/',
+      '.git',
+      '**/artifacts',
+      '**/publish',
+      '**/node_modules',
       '**/tests',
       '**/*.scss',
       '**/*.jsx',
       '**/*.ts',
-      '**/*.tsx'
+      '**/*.tsx',
     ],
   },
   /**
