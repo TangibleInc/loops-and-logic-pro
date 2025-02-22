@@ -19,6 +19,13 @@ Tags:
 
 == Changelog ==
 
+= 3.1.0 =
+
+Release Date: 2025-02-22
+
+- Improve compatibility with PHP 8.4
+- Improve dev/build/test setup and release pipeline
+
 = 3.0.5 =
 
 Release Date: 2023-11-31
