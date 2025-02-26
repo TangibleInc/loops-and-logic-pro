@@ -19,9 +19,9 @@ Tags:
 
 == Changelog ==
 
-= 3.1.1 =
+= 3.1.2 =
 
-Release Date: 2025-02-23
+Release Date: 2025-02-26
 
 - Improve compatibility with PHP 8.4
 - Improve dev/build/test setup and release pipeline
