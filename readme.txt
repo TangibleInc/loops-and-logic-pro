@@ -19,6 +19,12 @@ Tags:
 
 == Changelog ==
 
+= 3.2.2 =
+
+Release Date: 2025-07-04
+
+- Betterdash: Essay points - Handle division by zero
+
 = 3.2.1 =
 
 Release Date: 2025-02-27
